@@ -10,7 +10,7 @@ pipeline {
 	
 	stage("Git Checkout"){
             steps{
-                git  https://github.com/lihkas/devops-JDGtwo.git'
+                git  'https://github.com/lihkas/devops-JDGtwo.git'
             }
         } 
 	
