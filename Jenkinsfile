@@ -8,11 +8,11 @@ pipeline {
 	}
     stages {
 	
-	stage("Git Checkout"){
-            steps{
-                git  'https://github.com/lihkas/devops-JDGtwo.git'
-            }
-        } 
+	//stage("Git Checkout"){
+            //steps{
+                //git  'https://github.com/lihkas/devops-JDGtwo.git'
+            //}
+        //} 
 	
         stage('DOCKER-BUILD') {
              steps {
